@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        table{
+            background-color: cornflowerblue;
+        }
+        #box{
+            background-color: aliceblue;
+        }
+        #name{
+            border: 3px solid cornflowerblue;
+            background-color: plum;
+            width: 90px;
+            height: 60px;
+        }
+        #na{
+            height: 25px;
+            background-color:  antiquewhite;
+            border: antiquewhite;
+            border-style: groove;
+        }
+        #clear{
+            background-color: salmon;
+            border: 3px solid cornflowerblue;
+        }
+        #special{
+            background-color: goldenrod;
+            border: 3px solid cornflowerblue;
+            width: 90px;
+            height: 50px;
+        }
+        input{
+            width: 97%;
+            height: 60px;
+        }
+        #cl{
+            background-color: salmon;
+            height: 25px;
+            border: salmon;
+        }
+        #namein{
+            border: none;
+            background-color: plum;
+        }
+        #specialin{
+            border:none;
+            background-color: goldenrod;
+        }
+        #naa{
+            border:none;
+            background-color:  antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <form>
+    <table style="border: 5px solid cornflowerblue;width: 20%;height: 250px;">
+        <tr>
+            <th id="box" style="border: 1px solid white;height: 50px;" colspan="5">
+            <form>
+                <input type="text">
+            </form>
+            </th>
+        </tr>
+        <tr>
+            <th id="name"><input id="namein" type="button" value="1"></th>
+            <th id="name"><input id="namein" type="button" value="2"></th>
+            <th id="name"><input id="namein" type="button" value="3"></th>
+            <th id="special"><input id="specialin" type="button" value="%"></th>
+            <th id="clear"><input id="cl" type="submit" value="AC"></th>
+        </tr>
+        <tr>
+            <th id="name"><input id="namein" type="button" value="4"></th>
+            <th id="name"><input id="namein" type="button" value="5"></th>
+            <th id="name"><input id="namein" type="button" value="6"></th>
+            <th id="special"><input id="specialin" type="button" value="*"></th>
+            <th id="special"><input id="specialin" type="button" value="-"></th>
+        </tr>
+        <tr>
+            <th id="name"><input id="namein" type="button" value="1"></th>
+            <th id="name"><input id="namein" type="button" value="1"></th>
+            <th id="name"><input id="namein" type="button" value="1"></th>
+            <th id="special"><input id="specialin" type="button" value="/"></th>
+            <th id="special"><input id="specialin" type="button" value="+"></th>
+        </tr>
+        <tr>
+            <th id="clear"><input id="cl" type="submit" value="C"></th>
+            <th id="name"><input id="namein" type="button" value="0"></th>
+            <th id="name"><input id="namein" type="button" value="."></th>
+            <th id="na" colspan="2"><input id="naa" type="button" value="="></th>
+        </tr>
+    </table></form>
+</body>
+</html>
